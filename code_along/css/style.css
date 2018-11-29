@@ -1,0 +1,84 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Prompt:400,400i,600');
+
+body {
+  background-color: pink;
+  font-family: Prompt
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h2 {
+  font-style: italic;
+  font-weight:200;
+  font-size: 20px;
+  text-align: center;
+}
+h3 {
+  font-style:bold;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px
+}
+h4 {
+  font-style:bold;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px
+}
+img {
+  border-radius: 50%;
+  image-orientation: center;
+  margin-bottom: 60px
+}
+p {
+  text-align: center;
+}
+hr {
+  border: 1px dashed black;
+}
+
+.mammal {
+  color: red;
+  font-style: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.fish {
+  color: orange;
+  text-decoration: underline;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+/* NOTE: needed to set as block to allow you to change margins etc */
+#firstlist {
+  background-color: lime;
+}
+li {
+  display: inline-block;
+  margin: 30px;
+}
+li:hover {
+  background-color: white;
+}
+ul {
+  margin:auto;
+  width:700px
+}
